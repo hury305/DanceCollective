@@ -165,15 +165,6 @@ a {
     animation-timing-function: ease-in-out;
 }
 
-.subhead:hover {
-    color: #ff00e6;
-    animation-name: hover;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
-}
-
 @keyframes hover {
     0% {
         transform: skew(10deg);
